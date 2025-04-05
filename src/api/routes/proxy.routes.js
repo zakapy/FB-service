@@ -1,6 +1,6 @@
 const express = require('express');
-const proxyController = require('../controllers/proxy.controller');
-const { validate } = require('../middlewares/validator.middleware');
+const proxyController = require('../../controllers/proxy.controller');
+const { validate } = require('../../middlewares/validator.middleware');
 const proxyValidation = require('../validations/proxy.validation');
 
 const router = express.Router();

@@ -1,6 +1,6 @@
-const User = require('../../database/models/user.model');
-const { ApiError } = require('../../utils/errors');
-const logger = require('../../config/logger');
+const User = require('../database/models/user.model');  
+const { ApiError } = require('../utils/errors');
+const logger = require('../config/logger');
 
 /**
  * Регистрация нового пользователя
