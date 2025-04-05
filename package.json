@@ -1,0 +1,52 @@
+{
+  "name": "fb-service",
+  "version": "1.0.0",
+  "description": "Facebook automation service with Playwright and Dolphin Anty",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "client": "cd client && npm start",
+    "client-install": "cd client && npm install",
+    "dev:all": "concurrently \"npm run dev\" \"npm run client\"",
+    "install-all": "npm install && npm run client-install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakapy/FB-service.git"
+  },
+  "keywords": [
+    "facebook",
+    "automation",
+    "playwright",
+    "dolphin-anty",
+    "proxy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakapy/FB-service/issues"
+  },
+  "homepage": "https://github.com/zakapy/FB-service#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "joi": "^17.10.2",
+    "axios": "^1.5.0",
+    "playwright": "^1.38.0",
+    "winston": "^3.10.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "concurrently": "^8.2.1"
+  }
+}

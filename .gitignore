@@ -1,0 +1,76 @@
+# Зависимости
+/node_modules
+/client/node_modules
+/.pnp
+.pnp.js
+
+# Сборки и файлы окружения
+/build
+/client/build
+/dist
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/client/.env
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Файлы операционной системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Файлы IDE и редакторов
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Файлы сборщиков тестирования
+/coverage
+
+# Временные файлы и кэш
+.npm
+.eslintcache
+.cache
+.parcel-cache
+.next
+
+# Загруженные файлы
+/uploads
+/uploads/*
+
+# Конфиденциальные данные
+cookies.json
+private-keys.json
+secrets.json
+
+# Временные файлы Playwright
+.playwright-browser-data
+
+# Файлы Dolphin Anty
+dolphin-anty-profiles.json
+
+# Директории с локальными данными
+/data
+/.temp
