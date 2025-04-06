@@ -1,9 +1,9 @@
 const express = require('express');
 const authRoutes = require('./auth.routes');
-const accountRoutes = require('./account.routes');
+const accountRoutes = require('./account.rountes');
 const proxyRoutes = require('./proxy.routes');
 const automationRoutes = require('./automation.routes');
-const { authMiddleware } = require('../middlewares/auth.middleware');
+const { authMiddleware } = require('../../middlewares/auth.middleware');
 
 const router = express.Router();
 

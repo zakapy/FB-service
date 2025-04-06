@@ -1,5 +1,5 @@
 const Joi = require('joi');
-const { mongoIdSchema } = require('../middlewares/validator.middleware');
+const { mongoIdSchema } = require('../../middlewares/validator.middleware');
 
 const createProxy = {
   body: Joi.object({

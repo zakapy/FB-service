@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken');
-const { ApiError } = require('../../utils/errors');
-const config = require('../../config/config');
-const User = require('../../database/models/user.model');
-const logger = require('../../config/logger');
+const { ApiError } = require('../utils/errors');
+const config = require('../config/config');
+const User = require('../database/models/user.model');
+const logger = require('../config/logger');
 
 /**
  * Middleware для проверки авторизации
