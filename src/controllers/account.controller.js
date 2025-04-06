@@ -1,9 +1,9 @@
-const Account = require('../database/models/account.model');
-const Proxy = require('../database/models/proxy.model');
-const { ApiError } = require('../utils/errors');
-const logger = require('../config/logger');
-const dolphinProfiles = require('../automation/dolphin/profiles');
-const browser = require('../automation/playwright/browser');
+const Account = require('../../database/models/account.model');
+const Proxy = require('../../database/models/proxy.model');
+const { ApiError } = require('../../utils/errors');
+const logger = require('../../config/logger');
+const dolphinProfiles = require('../../automation/dolphin/profiles');
+const browser = require('../../automation/playwright/browser');
 
 /**
  * Получение списка всех аккаунтов пользователя

@@ -1,7 +1,7 @@
-const Proxy = require('../database/models/proxy.model');
-const Account = require('../database/models/account.model');
-const { ApiError } = require('../utils/errors');
-const logger = require('../config/logger');
+const Proxy = require('../../database/models/proxy.model');
+const Account = require('../../database/models/account.model');
+const { ApiError } = require('../../utils/errors');
+const logger = require('../../config/logger');
 const axios = require('axios');
 const { URL } = require('url');
 

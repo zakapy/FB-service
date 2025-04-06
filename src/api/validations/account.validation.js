@@ -1,5 +1,5 @@
 const Joi = require('joi');
-const { mongoIdSchema } = require('../../middlewares/validator.middleware');
+const { mongoIdSchema } = require('../middlewares/validator.middleware');
 
 const createAccount = {
   body: Joi.object({
